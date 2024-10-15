@@ -11,6 +11,7 @@ if sys.version_info[0] < 3 or (sys.version_info[0] == 3 and sys.version_info[1] 
                                       " Please upgrade or use pyshark-legacy, or pyshark version 0.3.8")
 
 from pyshark.capture.live_capture import LiveCapture
+from pyshark.capture.live_capture_now import LiveCaptureNow
 from pyshark.capture.live_ring_capture import LiveRingCapture
 from pyshark.capture.file_capture import FileCapture
 from pyshark.capture.remote_capture import RemoteCapture

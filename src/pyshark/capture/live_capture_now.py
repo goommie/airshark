@@ -1,3 +1,5 @@
+# From https://github.com/KimiNewt/pyshark/issues/296
+
 from pyshark.capture.live_capture import LiveCapture
 
 import asyncio

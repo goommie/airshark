@@ -31,6 +31,8 @@ class LiveCaptureNow(LiveCapture):
             params += ['-I']
         for interface in self.interfaces:
             params += ['-i', interface]
+        # Write to STDOUT
+        #params += ["-w", "-"]
         # Send view of decoded output to STDOUT even if -w option is capturing raw pcap output as well
         params += ['-V']
         return params
